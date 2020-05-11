@@ -1,0 +1,5 @@
+Operating Systems Functions
+
+Kernel
+
+The kernel is the resident code that forms the core of the OS.  This code is how other software and applications interact with the hardware.  After the bootloader activates the power supply the kernel is one of the first programs to run and it takes over the rest of the start up.  The kernel translates input/output data, handles interupts in processes and communicates instructions to the hardware of the computer like telling the HDD to fetch data. It is isolated from the rest of the programs in a "kernel space" to protect it from being manipulated.
