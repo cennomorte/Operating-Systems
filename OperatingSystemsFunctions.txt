@@ -10,6 +10,6 @@ Managing Memory
 Another important OS function is to manage the RAM.  The OS will call programs from the storage and assign them a place in the RAM.  In addition to calling these programs up, the OS will also monitor how these programs are running.  The memory of a computer has limited capacity and if this gets reached the OS will use parts of the hard drive for virtual memory to allow processes to continue.  This trade is called a swap file and the maximum amount that can be swapped is called a page.  Using virtual memory is not ideal because storage media typically runs much slower than memory.  After a program is done being used the OS removes it from the memory (and the virtual memory) and back into its place in storage.
 
 
-Updating Operation System Software
+Updating Operating System Software
 
 An OS also checks for corrections or additions to its own program.  These changes are known as an update and most OS will automatically check for these updates and depending on the user settings it will apply or ask for permission to apply the changes.  This allows developers to actively improve the functionality and efficiency of the OS but in some cases these updates can also make an OS unstable.  When this happens developers must release another update to increase stability in the OS.  Since software and hardware are constantly being improved it is important for these updates to be applied to keep up with new security threats and optimize OS efficiency.
