@@ -1,5 +1,5 @@
 Operating Systems Functions
 
-Kernel
+System Start Up
 
-The kernel is the resident code that forms the core of the OS.  This code is how other software and applications interact with the hardware.  After the bootloader activates the power supply the kernel is one of the first programs to run and it takes over the rest of the start up.  The kernel translates input/output data, handles interupts in processes and communicates instructions to the hardware of the computer like telling the HDD to fetch data. It is isolated from the rest of the programs in a "kernel space" to protect it from being manipulated.
+One of the most important functions of an OS is to start up the computer.  When the power button is pressed the power supply sends a current to the circuitry.  This current resets the processor chips and as a result the firmware runs a POST.  This is a self-diagnostic that insures proper functionality in the hardware.  Upon verification that things are working properly the bootloader moves from storage to memory which loads the OS.  Next the kernel layer is moved to memory and performs a check on hardware communications.  The final step is for the application layer to take over which will load the UI where on most modern computers the user can login, activating their prefferred settings such as antivirus software.
