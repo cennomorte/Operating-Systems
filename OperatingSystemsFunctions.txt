@@ -3,3 +3,8 @@ Operating Systems Functions
 System Start Up
 
 One of the most important functions of an OS is to start up the computer.  When the power button is pressed the power supply sends a current to the circuitry.  This current resets the processor chips and as a result the firmware runs a POST.  This is a self-diagnostic that insures proper functionality in the hardware.  Upon verification that things are working properly the bootloader moves from storage to memory which loads the OS.  Next the kernel layer is moved to memory and performs a check on hardware communications.  The final step is for the application layer to take over which will load the UI where on most modern computers the user can login, activating their prefferred settings such as antivirus software.
+
+
+Managing Memory
+
+Another important OS function is to manage the RAM.  The OS will call programs from the storage and assign them a place in the RAM.  In addition to calling these programs up, the OS will also monitor how these programs are running.  The memory of a computer has limited capacity and if this gets reached the OS will use parts of the hard drive for virtual memory to allow processes to continue.  This trade is called a swap file and the maximum amount that can be swapped is called a page.  Using virtual memory is not ideal because storage media typically runs much slower than memory.  After a program is done being used the OS removes it from the memory (and the virtual memory) and back into its place in storage.
